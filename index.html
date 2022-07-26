@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;1,100&family=Poppins:ital,wght@1,200&family=Roboto:ital,wght@0,300;1,100&family=Ubuntu:ital,wght@0,300;0,400;1,300&display=swap" rel="stylesheet">
+<script src="index.js" defer></script>
+</head>
+<body>
+  <div id="backdrop"></div>
+  <div class="modal" id="add-modal">
+    <div class="modal__content">
+      <div class="element"></div>
+      <label for="title">Full name</label>
+      <input type="text" name="title" id="title" />
+      <label for="image-url">Email</label>
+      <input type="email" name="email" id="email" />
+      <label for="rating">password</label>
+      <input
+        type="password"
+        step="1"
+        max="5"
+        min="1"
+        name="password"
+        id="password"
+      />
+    </div>
+    <div class="modal__actions">
+      <button class="btn btn--passive">Cancel</button>
+      <button class="btn btn--success">Login</button>
+    </div>
+  </div>
+  
+  <header>
+    <h1>Toskid</h1>
+    <button>sign-in</button>
+  </header>
+  <div class="main-header">
+    <h3>Morning and Evening Adhkar</h3>
+    <p>That you (people) may believe in Allah and His Messenger and honour him and respect the Prophet and exalt Allah morning and evening. Al-Quran 48:009</p>
+  </div>
+  <div class="Root">
+  </div>
+  <div class="modal" id="tog-modal">
+    <h3>صْبَحْنَا وَأَصْبَحَ الْمُلْكُ لِلَّهِ وَالْحَمْدُ لِلَّهِ، لَا إِلَهَ إِلَّّا اللَّهُ وَحْدَهُ لَا شَرِيكَ لَهُ، لَهُ الْمُلْكُ وَلَهُ الْحَمْدُ وَهُوَ عَلَى كُلِّ شَيْءٍ قَدِيرٌ، رَبِّ أَسْأَلُكَ خَيْرَ مَا فِيْ هَذَا الْيَوْمِ وَخَيْرَ مَا بَعْدَهُ، وَأَعُوْذُ بِكَ مِنْ شَرِّ مَا فِي هَذَا الْيَوْمِ وَشَرِّ مَا بَعْدَهُ، رَبِّ أَعُوْذُ بِكَ مِنَ الْكَسَلِ، وَسُوءِ الْكِبَرِ، رَبِّ أَعُوْذُ بِكَ مِنْ عَذَابٍ فِيْ النَّارِ وَعَذَابٍ فِيْ الْقَبْرِ</h3>
+    <p>'We have reached the evening and at this very time unto Allah belongs all sovereignty, and all praise is for Allah. None has the right to be worshipped except Allah, alone, without partner, to Him belongs all sovereignty and praise and He is over all things omnipotent. My Lord, I ask You for the good of this night and the good of what follows it and I take refuge in You from the evil of this night and the evil of what follows it. My Lord, I take refuge in You from laziness and senility. My Lord, I take refuge in You from torment in the Fire and punishment in the grave.'
+      'We have reached the morning and at this very time unto Allah belongs all sovereignty...'
+    </p>
+      <div class="modal__actions">
+        <button class="btn btn--active">Cancel</button>
+        <button class="btn btn--danger">Next</button>
+      </div>
+  </div>
+<div class="modal" id="lab-modal">
+  <h3>اللَّهُمَّ بِكَ أَصْبَحْنَا، وَبِكَ أَمْسَيْنَا، وَبِكَ نَحْيَا، وَبِكَ نَمُوتُ، وَإِلَيْكَ النُّشُورُ</h3>
+<p>O Allāh, by You (i.e., Your will and power) we reached the morning, by You we (earlier) reached the evening, by You we live, by You we will die, and to You will be our emergence (from graves).
+</p>
+<div class="modal__actions">
+  <button class="btn btn--active">Prev</button>
+  <button class="btn btn--danger">Next</button>
+</div>
+</div>
+<div class="modal" id="net-modal">
+  <h3>اللّهـمَّ أَنْتَ رَبِّـي لا إلهَ إلاّ أَنْتَ ، خَلَقْتَنـي وَأَنا عَبْـدُك ، وَأَنا عَلـى عَهْـدِكَ وَوَعْـدِكَ ما اسْتَـطَعْـت ، أَعـوذُبِكَ مِنْ شَـرِّ ما صَنَـعْت ، أَبـوءُ لَـكَ بِنِعْـمَتِـكَ عَلَـيَّ وَأَبـوءُ بِذَنْـبي فَاغْفـِرْ لي فَإِنَّـهُ لا يَغْـفِرُ الذُّنـوبَ إِلاّ أَنْتَ</h3>
+<p>O Allah, You are my Lord, none has the right to be worshipped except You, You created me and I am Your servant and I abide to Your covenant and promise as best I can, I take refuge in You from the evil of which I have committed. I acknowledge Your favour upon me and I acknowledge my sin, so forgive me, for verily none can forgive sin except You.
+</p>
+<div class="modal__actions">
+  <button class="btn btn--active">Prev</button>
+  <button class="btn btn--danger">Next</button>
+</div>
+</div>
+<div class="modal" id="pre-modal">
+  <h3>
+    اللّهُـمَّ إِنِّـي أَصْبَـحْتُ أَُشْـهِدُك ، وَأُشْـهِدُ حَمَلَـةَ عَـرْشِـك ، وَمَلائِكَتِك ، وَجَمـيعَ خَلْـقِك ، أَنَّـكَ أَنْـتَ اللهُ لا إلهَ إلاّ أَنْـتَ وَحْـدَكَ لا شَريكَ لَـك ، وَأَنَّ ُ مُحَمّـداً عَبْـدُكَ وَرَسـولُـك .(أربع مرات حينَ يصْبِح أوْ يمسي)</h3>
+  <p>O Allah, verily I have reached the morning and call on You, the bearers of Your throne, Your angels, and all of Your creation to witness that You are Allah, none has the right to be worshipped except You, alone, without partner and that Muhammad is Your Servant and Messenger. (Four times in the morning and evening.)
+    Note: for the evening, one reads (amsaytu) instead of (asbahtu).</p>
+    <div class="modal__actions">
+      <button class="btn btn--active">Prev</button>
+      <button class="btn btn--danger">Next</button>
+    </div>
+</div>
+<div class="modal" id="rem-modal">
+  <h3>
+    اللّهُـمَّ ما أَصْبَـَحَ بي مِـنْ نِعْـمَةٍ أَو بِأَحَـدٍ مِـنْ خَلْـقِك ، فَمِـنْكَ وَحْـدَكَ لا شريكَ لَـك ، فَلَـكَ الْحَمْـدُ وَلَـكَ الشُّكْـر</h3>
+  <p>O Allah, what blessing I or any of Your creation have risen upon, is from You alone, without partner, so for You is all praise and unto You all thanks.' ....whoever says this in the morning has indeed offered his day’s thanks and whoever says this in the evening has indeed offered his night’s thanks.
+    Note: for the evening, one reads (amsa) instead of (asbaha).</p>
+    <div class="modal__actions">
+      <button class="btn btn--active">Prev</button>
+      <button class="btn btn--danger">Next</button>
+    </div>
+</div>
+<div class="modal" id="ram-modal">
+  <h3>
+    اللّهُـمَّ عافِـني في بَدَنـي ، اللّهُـمَّ عافِـني في سَمْـعي ، اللّهُـمَّ عافِـني في بَصَـري ، لا إلهَ إلاّ أَنْـتَ . (ثلاثاً) اللّهُـمَّ إِنّـي أَعـوذُبِكَ مِنَ الْكُـفر ، وَالفَـقْر ، وَأَعـوذُبِكَ مِنْ عَذابِ القَـبْر ، لا إلهَ إلاّ أَنْـتَ . (ثلاثاً)</h3>
+  <p>‘O Allah, grant my body health, O Allah, grant my hearing health, O Allah, grant my sight health. None has the right to be worshipped except You.’
+    (three times)
+    
+    ‘O Allah, I take refuge with You from disbelief and poverty, and I take refuge with You from the punishment of the grave. None has the right to be worshipped except You.’
+    (three times)</p>
+    <div class="modal__actions">
+      <button class="btn btn--active">Prev</button>
+      <button class="btn btn--danger">Next</button>
+    </div>
+</div>
+<div class="modal" id="tok-modal">
+  <h3>
+    حَسْبِـيَ اللّهُ لا إلهَ إلاّ هُوَ عَلَـيهِ تَوَكَّـلتُ وَهُوَ رَبُّ العَرْشِ العَظـيم . ( سبع مَرّات حينَ يصْبِح وَيمسي)</h3>
+  <p>Allah is Sufficient for me, none has the right to be worshipped except Him, upon Him I rely and He is Lord of the exalted throne.
+    (seven times morning and evening)</p>
+    <div class="modal__actions">
+      <button class="btn btn--active">Prev</button>
+      <button class="btn btn--danger">Next</button>
+    </div>
+</div>
+<div class="modal" id="mar-modal">
+  <h3>
+    اَعـوذُبِكَلِمـاتِ اللّهِ التّـامّـاتِ مِنْ شَـرِّ ما خَلَـق . (ثلاثاً إِذا أمسى)</h3>
+  <p>I take refuge in Allah’s perfect words from the evil He has created.
+    (three times in the evening)</p>
+    <div class="modal__actions">
+      <button class="btn btn--active">Prev</button>
+      <button class="btn btn--danger">logout</button>
+    </div>
+</div>
+<div class="modal" id="log-modal">
+  <h3>Are you sure you want to logout</h3>
+  <div class="modal__actions">
+    <button class="btn btn--active">cancel(NO)</button>
+    <button class="btn btn--danger">YES</button>
+  </div>
+</div>
+</body>
+</html>
